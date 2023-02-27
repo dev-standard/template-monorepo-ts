@@ -1,3 +1,3 @@
-# template-ts
+# template-monorepo-ts
 
-a universal template for typescript
+a universal template for monorepo with Typescript
