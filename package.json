@@ -23,7 +23,8 @@
     "lint": "eslint .",
     "format": "eslint --fix .",
     "commit": "git-cz",
-    "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
+    "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks",
+    "release": "changeset add && changeset version"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.34.1",
