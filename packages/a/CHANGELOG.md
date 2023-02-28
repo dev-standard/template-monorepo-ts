@@ -1,5 +1,15 @@
 # @liting-yes/template-monorepo-ts-a
 
+## 1.1.0
+
+### Minor Changes
+
+- add LICENSE
+
+### Patch Changes
+
+- 600be54: set prevate to false
+
 ## 1.0.1
 
 ### Patch Changes
