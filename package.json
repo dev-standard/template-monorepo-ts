@@ -23,7 +23,7 @@
     "lint": "eslint .",
     "format": "eslint --fix .",
     "commit": "git-cz",
-    "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks",
+    "postinstall": "npx simple-git-hooks",
     "release": "changeset add && changeset version"
   },
   "devDependencies": {
