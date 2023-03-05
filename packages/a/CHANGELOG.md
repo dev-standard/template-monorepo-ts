@@ -1,5 +1,11 @@
 # @liting-yes/template-monorepo-ts-a
 
+## 1.3.0
+
+### Minor Changes
+
+- @commitlint/config-pnpm-scopes
+
 ## 1.2.0
 
 ### Minor Changes
