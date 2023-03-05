@@ -31,7 +31,9 @@
     "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/config-pnpm-scopes": "^17.4.2",
     "@commitlint/cz-commitlint": "^17.4.2",
+    "@pnpm/find-workspace-packages": "^5.0.37",
     "@tsconfig/node-lts-strictest": "^18.12.1",
     "commitizen": "^4.3.0",
     "eslint": "^8.32.0",
@@ -54,7 +56,8 @@
   },
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
+      "@commitlint/config-conventional",
+      "@commitlint/config-pnpm-scopes"
     ]
   }
 }
